@@ -8,7 +8,7 @@ USER=$(whoami)
 VALIDATOR_ADDRESS='${VALIDATOR_ADDRESS}'
 
 cat > metadata <<EOF
-VALIDATOR_ADDRESS=
+VALIDATOR_ADDRESS=0xc40Bd8A9B58B8590087b901B52e5F0af0Cd43fBD
 EOF
 
 cat > bor.service <<EOF
@@ -21,9 +21,9 @@ cat > bor.service <<EOF
   Restart=on-failure
   RestartSec=5s
   WorkingDirectory=$NODE_DIR
-  EnvironmentFile=/etc/matic/metadata
-  ExecStartPre=/bin/chmod +x $NODE_DIR/bor/start.sh
-  ExecStart=/bin/bash $NODE_DIR/bor/start.sh $VALIDATOR_ADDRESS
+  EnvironmentFile=/etc/dojima/metadata
+  ExecStartPre=/bin/chmod +x $NODE_DIR/bulldog/start.sh
+  ExecStart=/bin/bash $NODE_DIR/bulldog/start.sh $VALIDATOR_ADDRESS
   Type=simple
   User=$USER
 
