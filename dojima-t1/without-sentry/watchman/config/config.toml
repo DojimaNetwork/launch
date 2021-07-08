@@ -158,10 +158,10 @@ laddr = "tcp://0.0.0.0:26656"
 external_address = ""
 
 # Comma separated list of seed nodes to connect to
-seeds = "f31cf5788c4be3ec5a7dce4bcf470a2a0d7a55a1@172.17.0.2:26656"
+seeds = "11678fcb61ea2579f5109888d68db3fad85a005b@172.17.0.2:26656"
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = "<replace with sentry_machineNodeID@sentry_instance_ip:26656>"
+persistent_peers = "11678fcb61ea2579f5109888d68db3fad85a005b@172.17.0.2:26656"
 
 # UPNP port forwarding
 upnp = false
