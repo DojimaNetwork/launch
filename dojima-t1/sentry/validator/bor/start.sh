@@ -9,8 +9,8 @@ if [ -z "$1" ]
 fi
 
 ADDRESS=$1
-BOR_DIR=${BOR_DIR:-~/.bor}
-DATA_DIR=$BOR_DIR/data
+BULLDOG_DIR=${BULLDOG_DIR:-~/.bor}
+DATA_DIR=$BULLDOG_DIR/data
 
 bor --datadir $DATA_DIR \
   --port 30303 \
@@ -28,9 +28,9 @@ bor --datadir $DATA_DIR \
   --txpool.accountslots '128' \
   --txpool.globalslots '20000'  \
   --txpool.lifetime '0h16m0s' \
-  --keystore $BOR_DIR/keystore \
+  --keystore $BULLDOG_DIR/keystore \
   --unlock $ADDRESS \
-  --password $BOR_DIR/password.txt \
+  --password $BULLDOG_DIR/password.txt \
   --allow-insecure-unlock \
   --nodiscover --maxpeers 1 \
   --metrics \

@@ -9,8 +9,8 @@ if [ -z "$1" ]
 fi
 
 ADDRESS=$1
-BOR_DIR=${BOR_DIR:-~/.bor}
-DATA_DIR=$BOR_DIR/data
+BULLDOG_DIR=${BULLDOG_DIR:-~/.bor}
+DATA_DIR=$BULLDOG_DIR/data
 
 bor --datadir $DATA_DIR \
   --port 30303 \
@@ -21,16 +21,16 @@ bor --datadir $DATA_DIR \
   --ipcpath $DATA_DIR/bor.ipc \
   --http.api 'eth,net,web3,txpool,bor' \
   --syncmode 'full' \
-  --networkid '137' \
+  --networkid '1001' \
   --miner.gaslimit '20000000' \
   --miner.gastarget '20000000' \
   --txpool.nolocals \
   --txpool.accountslots '128' \
   --txpool.globalslots '20000'  \
   --txpool.lifetime '0h16m0s' \
-  --keystore $BOR_DIR/keystore \
+  --keystore $BULLDOG_DIR/keystore \
   --unlock $ADDRESS \
-  --password $BOR_DIR/password.txt \
+  --password $BULLDOG_DIR/password.txt \
   --allow-insecure-unlock \
   --maxpeers 200 \
   --metrics \

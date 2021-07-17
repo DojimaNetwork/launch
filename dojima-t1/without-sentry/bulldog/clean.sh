@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 
-BOR_DIR=${BOR_DIR:-~/.bor}
+BULLDOG_DIR=${BULLDOG_DIR:-~/.bor}
 
-rm -rf $BOR_DIR
+rm -rf $BULLDOG_DIR

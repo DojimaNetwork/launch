@@ -305,6 +305,10 @@
         {
           "user": "0xc40Bd8A9B58B8590087b901B52e5F0af0Cd43fBD",
           "feeAmount": "0"
+        },
+        {
+          "user": "0x630C9d128A7A08fa25f18c6C154a5144024186E3",
+          "feeAmount": "0"
         }
       ]
     }

@@ -2,8 +2,8 @@
 
 set -x #echo on
 
-BOR_DIR=${BOR_DIR:-~/.bor}
-DATA_DIR=$BOR_DIR/data
+BULLDOG_DIR=${BULLDOG_DIR:-~/.bor}
+DATA_DIR=$BULLDOG_DIR/data
 
 bor --datadir $DATA_DIR \
   --port 30303 \
