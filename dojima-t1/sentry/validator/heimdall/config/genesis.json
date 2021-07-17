@@ -296,7 +296,7 @@
         "maticchain_tx_confirmations": "10",
         "chain_params": {
           "bor_chain_id": "137",
-          "matic_token_address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+          "matic_token_address": "0x4D76Af92248D3c510Ffb0475640BFA15917641D4",
           "staking_manager_address": "0x88F65097BA6E10F25E93bf41987f9416BBB303eB",
           "slash_manager_address": "0xbfAEa5DCcbA49DB25A9F9DD0E4245Ba7b1858aB4",
           "root_chain_address": "0x86E4Dc95c7FBdBf52e33D563BbDB00823894C287",

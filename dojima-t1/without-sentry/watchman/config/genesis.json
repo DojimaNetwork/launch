@@ -147,12 +147,12 @@
         "maticchain_tx_confirmations": "10",
         "chain_params": {
           "bor_chain_id": "1001",
-          "matic_token_address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
-          "staking_manager_address": "0x88F65097BA6E10F25E93bf41987f9416BBB303eB",
-          "slash_manager_address": "0xbfAEa5DCcbA49DB25A9F9DD0E4245Ba7b1858aB4",
-          "root_chain_address": "0x86E4Dc95c7FBdBf52e33D563BbDB00823894C287",
-          "staking_info_address": "0xCe911aE0ffe9F54F96AFE49FC9BcBA0658f5CD1F",
-          "state_sender_address": "0x28e4F3a7f651294B9564800b2D01f35189A5bFbE",
+          "matic_token_address": "0x4D76Af92248D3c510Ffb0475640BFA15917641D4",
+          "staking_manager_address": "0x7B00c7B85AC872cc7bf2918C4Ce839FD0EA3D98B",
+          "slash_manager_address": "0x14C0116C0eD12B8B2C2f865cc191e1669A8903C9",
+          "root_chain_address": "0xAc18C1F74c50c2fEBF882daac4Dba268f5f675c4",
+          "staking_info_address": "0xd82c06fd1B461ba71a98E0ec2c5E37B3F64806bc",
+          "state_sender_address": "0xe8512e7Ca36B228C211c040fBeB72887563f79A4",
           "state_receiver_address": "0x0000000000000000000000000000000000001001",
           "validator_set_address": "0x0000000000000000000000000000000000001000"
         }
